@@ -127,6 +127,9 @@ header h5 {
   left: 15%;
   right: 0;
 }
+.mobile-nav {
+  display: none;
+}
 #toop {
   position: relative;
   /* width: 20em;
@@ -185,7 +188,7 @@ header h5 {
 .gallery h2::after,
 .contact h2::after {
   content: "";
-  height: 0.2rem;
+  height: 0.3rem;
   width: 50%;
   background-color: var(--iconcolor);
   position: absolute;
@@ -202,7 +205,7 @@ label,
   margin-top: 1rem;
   text-align: justify;
   letter-spacing: 0.1rem;
-  line-height: 1.8rem;
+  line-height: 2.2rem;
 }
 .about span {
   font-weight: 900;
@@ -265,7 +268,7 @@ label,
 }
 .servicetext {
   text-align: justify;
-  padding: 1rem;
+  padding: 0rem 2rem;
 }
 
 .folio h3 {
@@ -382,20 +385,49 @@ input[type="submit"]:hover,
 }
 .media-icons {
   float: right;
-  position: absolute;
   right: 3%;
-  top: -4rem;
-  display: grid;
+  vertical-align: middle;
+  position: absolute;
+  top: -20%;
 }
-.media-icons i {
-  font-size: 2.2rem;
+.media-icons ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+}
+.media-icons ul li {
   padding: 1rem 0;
+}
+.media-icons ul li a .link-text {
+  margin-right: 0.8rem;
+}
+.link-up .link-text {
+  display: none;
+  color: var(--bgcolor);
+  background-color: var(--sidebar);
+  width: 15rem;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+.link-up:hover .link-text {
+  display: inline;
+  transform: translateX(0);
+}
+.link-up .ico {
+  font-size: 2.2rem;
   color: var(--fontcolor);
+  text-align: right;
 }
-.media-icons i:hover {
-  color: var(--iconcolor);
-  transition: all 0.2s ease-out;
+.link-up .ico:hover {
+  color: var(--sidebar);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  display: inline;
 }
+
 /* .media-icons ul li {
   padding: 1.5rem 0;
 } */

@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .row-halves{
         display: block;
     }
@@ -55,4 +55,55 @@
     .mobile-nav{
         display: none;
     }
+} */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .media-icons {
+    top: 15%;
+  }
+  .mine {
+    top: 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .media-icons {
+    top: 18%;
+  }
+  .mine {
+    top: 20%;
+  }
+  .media-icons i {
+    font-size: 1.8rem;
+    padding: 0.7rem 0;
+  }
+  header h1 {
+    font-size: 4rem;
+  }
+  header h5 {
+    font-size: 1.8rem;
+  }
+  input[type="submit"],
+  .cvbutton a {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  .about h2,
+  .folio h2,
+  .gallery h2,
+  .contact h2 {
+    font-size: 2rem;
+  }
+  .about p,
+  .folio p,
+  .servicetext,
+  label,
+  .topic,
+  .text-one {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (max-width: 575.98px) {
 }
