@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <!-- Google icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Font awesome icon -->
@@ -29,8 +33,8 @@
             </a>
             <a href="#services"><i class="material-icons md-36">description</i>
             <p>Services</p>
-            <a href="#gallery"><i class="material-icons md-36">image</i>
-            <p>Gallery</p>
+            <a href="#projects"><i class="material-icons md-36">image</i>
+            <p>Projects</p>
             </a>
             <a href="#contact"><i class="material-icons md-36">mail</i>
             <p>Contact</p>
@@ -41,7 +45,7 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
     <!------- Side bar end ------->
@@ -51,7 +55,7 @@
         <header class="home" id="home">
                 <div class="mine">
                     <h1>Kanij</h1>
-                    <h5>Designer // Developer</h5>
+                    <h5>UI/UX Designer // Frontend Web Designer</h5>
                     <div class="cvbutton">
                         <a href="resume/portfolio_mine.pdf" target="_blank">resume</a>
                     </div>
@@ -77,7 +81,7 @@
                                 class="fa-brands fa-flickr ico" target="_blank"></i></a>
                     </div>
                 </div>
-                    <div class="media-icons">
+                    <!-- <div class="media-icons">
                         <ul>
                             <li>
                                 <a href="mailto:kanijkoli098@gmail.com" class="link-up" target="_blank">
@@ -118,7 +122,7 @@
                                         class="link-text">get flickr</span><i class="fa-brands fa-flickr ico" target="_blank"></i></a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     
                 <div id="toop">
                     <img src="img/food_mockup.png" alt="" class="topimg">
@@ -138,6 +142,12 @@
 
         <h2>Skills</h2>
             <div class="skills-bar">
+                            <div class="bar">
+                                <div class="info">
+                                    <span>UI/UX Design</span>
+                                </div>
+                                <div class="progress-line ui"><span></span></div>
+                            </div>
                 <div class="bar">
                     <div class="info">
                         <span>HTML</span>
@@ -173,27 +183,18 @@
                     </div>
                     <div class="progress-line jquery"><span></span></div>
                 </div>
-            
+                            <div class="bar">
+                                <div class="info">
+                                    <span>MYSQL</span>
+                                </div>
+                                <div class="progress-line mysql"><span></span></div>
+                            </div>
             
                 <div class="bar">
                     <div class="info">
                         <span>flutter</span>
                     </div>
                     <div class="progress-line flutter"><span></span></div>
-                </div>
-            
-            <div class="bar">
-                <div class="info">
-                    <span>UI/UX Design</span>
-                </div>
-                <div class="progress-line ui"><span></span></div>
-            </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>MYSQL</span>
-                    </div>
-                    <div class="progress-line mysql"><span></span></div>
                 </div>
             
             </div>
@@ -261,7 +262,7 @@
 
     <!------- gallery start ------->
     <section class="gallery" id="gallery">
-<h2>Gallery</h2>
+<h2>Projects</h2>
     <div class="row imggallery">
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="img/food_mockup.png">
@@ -355,14 +356,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- Popper JS -->
@@ -374,6 +367,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/6.0.1/esm/ionicons.min.js"
         integrity="sha512-EmbXlzmS4lTfNxBz7xWacOcWYBw42KAzHTbtuVQvCPrR+fTeHHMB2dnxKqxhwqSqrK8foPW/LZOnHof4DCDHMw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Mix It Up JS -->
+    <script src="js/mixitup.min.js"></script>
 <!-- Main js -->
     <script src="js/main.js" type="text/javascript"></script>
 

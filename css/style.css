@@ -25,7 +25,7 @@ html {
 }
 body {
   background: var(--bgcolor);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Fredoka", sans-serif;
   overflow-x: hidden;
   line-height: 1.3;
   font-size: 1.6rem;
@@ -161,13 +161,13 @@ header {
   letter-spacing: 0.2rem;
 }
 header h1 {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 5rem;
   letter-spacing: 0.4rem;
   color: var(--fontcolor);
 }
 header h5 {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 2.2rem;
   letter-spacing: 0.4rem;
   color: var(--fontcolor);
@@ -188,9 +188,19 @@ header h5 {
   height: 30%;
   margin-left: 20%;
 }
-.mobile-nav,
-.again-icons {
+.mobile-nav {
   display: none;
+}
+.again-icons {
+  display: block;
+  margin-top: 5rem;
+}
+.again-icons a {
+  text-decoration: none;
+}
+.again-icons .ico {
+  font-size: 2rem;
+  padding: 0rem 0.8rem;
 }
 #toop {
   position: relative;
@@ -230,13 +240,12 @@ header h5 {
   width: 80%;
   float: right;
   padding-right: 5rem;
-  text-transform: capitalize;
 }
 .about h2,
 .folio h2,
 .gallery h2,
 .contact h2 {
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   padding-bottom: 1rem;
   margin: 5rem 0rem 1rem 0rem;
@@ -268,13 +277,12 @@ label,
   font-size: var(--mainp);
   margin-top: 1rem;
   text-align: justify;
-  letter-spacing: 0.1rem;
   line-height: 2.2rem;
 }
-.about span {
+/* .about span {
   font-weight: 900;
   color: var(--fontcolor);
-}
+} */
 .about h3 {
   font-weight: 300;
   margin: 5rem 0;
@@ -305,7 +313,7 @@ label,
 }
 .skills-bar .bar .info span {
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 400;
   opacity: 0;
   animation: showText 0.5s 1.5s linear forwards;
   text-transform: uppercase;
@@ -394,7 +402,7 @@ label,
   top: -2.8rem;
   background: var(--fontcolor);
   color: var(--bgcolor);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.2rem;
   padding: 0.1rem 0.8rem;
   border-radius: 0.3rem;
@@ -456,7 +464,6 @@ label,
   color: var(--fontcolor);
   font-weight: 500;
   letter-spacing: 0.05rem;
-  font-weight: 600;
   font-size: 1.8rem;
 }
 .folio p {
@@ -523,7 +530,7 @@ input[type="submit"],
   /* border: 0.1rem solid var(--sidebar); */
   cursor: pointer;
   transition: all 0.35s;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.2rem;
   text-decoration: none;
 }
@@ -545,7 +552,7 @@ input[type="submit"]:hover,
 }
 .topic {
   font-size: var(--mainp);
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
 }
 .text-one {
@@ -625,8 +632,4 @@ input[type="submit"]:hover,
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
-}
-.thumb figure img {
-}
-.thumb figure img:hover {
 }
