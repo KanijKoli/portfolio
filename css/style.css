@@ -296,7 +296,6 @@ label,
 /* Skill bar start */
 
 .skills-bar {
-  border-radius: 1rem;
   padding: 2.5rem 0rem;
 }
 
@@ -605,9 +604,7 @@ input[type="submit"]:hover,
 .thumb {
   margin-bottom: 15px;
 }
-.thumb:last-child {
-  margin-bottom: 0;
-}
+
 /* CSS Image Hover Effects: https://www.nxworld.net/tips/css-image-hover-effects.html */
 .thumb figure img {
   -webkit-filter: grayscale(100%);
@@ -632,4 +629,55 @@ input[type="submit"]:hover,
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.portfolio-filter button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--fontcolor);
+  border: 0;
+  color: var(--bgcolor);
+  font-size: var(--mainp);
+  font-weight: 300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-filter button:hover {
+  background: var(--sidebar);
+}
+.portfolio-filter button.active {
+  background: var(--iconcolor);
+}
+
+.portfolio-filter button:focus {
+  outline: 0 none;
+}
+
+.portfolio-filter button + label {
+  margin-left: 1rem;
+}
+
+.pcontainer {
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+  background: var(--iconcolor);
+  -webkit-backface-visibility: hidden;
+}
+.mix {
+  width: 100%;
+}
+.portfolio-filter {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.filter-top {
+  margin-top: 3rem;
+}
+.filter-top .mix {
+  display: none;
+}
+.filter-top .mix img {
+  width: 100%;
 }

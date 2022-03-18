@@ -168,15 +168,12 @@
                     </div>
                     <div class="progress-line bootstrap"><span></span></div>
                 </div>
-            
                 <div class="bar">
                     <div class="info">
                         <span>JAVASCRIPT</span>
                     </div>
                     <div class="progress-line javascript"><span></span></div>
                 </div>
-            
-            
                 <div class="bar">
                     <div class="info">
                         <span>jquery</span>
@@ -189,14 +186,12 @@
                                 </div>
                                 <div class="progress-line mysql"><span></span></div>
                             </div>
-            
                 <div class="bar">
                     <div class="info">
                         <span>flutter</span>
                     </div>
                     <div class="progress-line flutter"><span></span></div>
                 </div>
-            
             </div>
     </section>
 <!------- about end ------->
@@ -216,7 +211,6 @@
         </div>
         <div class="row service-row">
             <div class="media">
-                
                 <div class="media-body servicetext">
                     <h3>Graphics Design</h3>
                     <p>Using graphic design software or by hand, designers create visual concepts to communicate ideas that encourage, inform,
@@ -262,8 +256,63 @@
 
     <!------- gallery start ------->
     <section class="gallery" id="gallery">
-<h2>Projects</h2>
-    <div class="row imggallery">
+        <h2>Projects</h2>
+
+        <div class="portfolio-filter">
+            <button class="filter" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter=".ui">UI/UX</button>
+            <button class="filter" type="button" data-filter=".web">Web</button>
+            <button class="filter" type="button" data-filter=".software">Software</button>
+        </div>
+  
+    <div id="piloontainer" class="row filter-top">
+        <div class="col-lg-3 col-sm-6 col-xs-6 mix ui thumb">
+            <a href="img/food_mockup.png">
+                <figure><img class="img-fluid img-thumbnail" src="img/food_mockup.png" alt="Random Image"><figure>
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-6 mix web thumb">
+            <a href="img/01.png">
+                <figure><img class="img-fluid img-thumbnail zoom" src="img/01.png" alt="Random Image"></figure>
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-6 mix web thumb">
+            <a href="img/02.png">
+                <figure><img class="img-fluid img-thumbnail" src="img/02.png" alt="Random Image"></figure>
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-6 mix software thumb">
+            <a href="img/03.png">
+                <figure><img class="img-fluid img-thumbnail" src="img/03.png" alt="Random Image"></figure>
+            </a>
+        </div>
+    </div>
+<!-- <div id="piloontainer" class="pcontainer imggallery">
+    <div class="mix ui" data-myorder="1"><div class="col thumb">
+        <a href="img/food_mockup.png">
+            <figure><img class="img-fluid img-thumbnail" src="img/food_mockup.png" alt="Random Image"></figure>
+        </a>
+    </div></div>
+    <div class="mix web" data-myorder="2"><div class="col thumb">
+        <figure><a href="img/01.png">
+                <img class="img-fluid img-thumbnail zoom" src="img/01.png" alt="Random Image">
+            </a></figure>
+    </div></div>
+    <div class="mix web" data-myorder="3"><div class="col thumb">
+        <a href="img/02.png">
+            <figure><img class="img-fluid img-thumbnail" src="img/02.png" alt="Random Image"></figure>
+        </a>
+    </div></div>
+    <div class="mix software" data-myorder="4"><div class="col thumb">
+        <a href="img/03.png">
+            <figure><img class="img-fluid img-thumbnail" src="img/03.png" alt="Random Image"></figure>
+        </a>
+    </div></div>
+</div> -->
+    <!-- <div class="row imggallery">
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="img/food_mockup.png">
                 <figure><img class="img-fluid img-thumbnail" src="img/food_mockup.png" alt="Random Image"></figure>
@@ -278,18 +327,16 @@
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="img/02.png">
-                <figure><img class="img-fluid img-thumbnail" src="img/02.png"
-                        alt="Random Image"></figure>
+                <figure><img class="img-fluid img-thumbnail" src="img/02.png" alt="Random Image"></figure>
             </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="img/03.png">
-                <figure><img class="img-fluid img-thumbnail" src="img/03.png"
-                        alt="Random Image"></figure>
+                <figure><img class="img-fluid img-thumbnail" src="img/03.png" alt="Random Image"></figure>
             </a>
         </div>
-    </div>
+    </div> -->
 
     </section>
     <!------- gallery end ------->
@@ -324,17 +371,14 @@
                         <div class="topic">Phone</div>
                         <div class="text-one">01732031140<br>(10 AM - 4 PM)</div>
                     </div>
-                
                 </div>
             </div>
         </div>
-
     </section>
 <!------- contact end ------->
 
 <!------- footer start ------->
     <section class="footer">
-
         <div class="boottom-part">
             Kanij | &copy 2020 All rights reserved
         </div>
@@ -357,7 +401,7 @@
 
 
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <!-- Latest compiled JavaScript -->
@@ -368,7 +412,7 @@
         integrity="sha512-EmbXlzmS4lTfNxBz7xWacOcWYBw42KAzHTbtuVQvCPrR+fTeHHMB2dnxKqxhwqSqrK8foPW/LZOnHof4DCDHMw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Mix It Up JS -->
-    <script src="js/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
 <!-- Main js -->
     <script src="js/main.js" type="text/javascript"></script>
 

@@ -17,3 +17,6 @@ $(document).ready(function () {
 
 // Form
 $("#myForm")[0].reset();
+$(function () {
+  $("#piloontainer").mixItUp();
+});
