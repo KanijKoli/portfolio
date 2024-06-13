@@ -12,7 +12,7 @@
 
 :root{
 	--bg-color:#424342;
-	--highlight-color: #a6bbff;
+	--highlight-color: #45adff;
 	--accent-color:#F1F2F1;
   --secondary-color: #787586;
 }
@@ -85,7 +85,7 @@ h6 {
 }
 
 #header * {
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 #header h1 {
@@ -126,7 +126,7 @@ h6 {
 }
 
 #header .social-links a {
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,6 +141,7 @@ h6 {
 
 #header .social-links a:hover {
   background: var(--highlight-color);
+  color: var(--accent-color);
 }
 
 @media (max-width: 992px) {
@@ -556,7 +557,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.20);
 }
 
 /*--------------------------------------------------------------
@@ -816,6 +817,7 @@ section .container {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   background: var(--highlight-color);
+  color: var(--accent-color);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1061,7 +1063,7 @@ section .container {
   display: inline-block;
   color: var(--accent-color);
   line-height: 1;
-  margin-right: 12px;
+  margin-right: 24px;
   transition: 0.3s;
 }
 
@@ -1158,6 +1160,7 @@ section .container {
   color: var(--accent-color);
   transition: 0.4s;
   border-radius: 4px;
+  font-weight: 600;
 }
 
 .contact .php-email-form button[type=submit]:hover {
